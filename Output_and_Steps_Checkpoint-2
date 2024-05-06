@@ -1,0 +1,18 @@
+Output of CipherText1,
+cx h zhlocbsahl hxt, cx rhbi bhkr, tcqqrlrxo dhv, oirkr qgsl drlr cxtckzrxkhfar og icp-vsug hphlva, frbhskr gq ick jscbn sxtrlkohxtcxu gq oir zlcxbczark gq zkvbigickoglv hxt gq ick cphucxhocer zlgfcxuk cxog xrd hlrhk. co dhk bgpqglocxu og nxgd oiho cq hxvoicxu ihzzrxrt og kratgx icpkraq frqglr oir phoirphocbk gq oir qcrat bgsat fr bgpzarorav dglnrt gso- hxt igd kagdav co zlgbrrtrt, hxt igd pgsxohcxgsk oir gfkohbark--oirlr dgsat ho arhko lrphcx gxr uggt pcxt oiho dgsat bgxocxsr oir lrkrhlbi
+
+Output of CipherText2,
+osuoz khb wqpa pseg hri wqpa nqefushp, hri ghi oqqr xgq kzriqp zl xgq bgspq lzp bsdxa aqhpb, qwqp bsreq gsb pqthpmhouq isbhnnqhphreq hri frqdnqexqi pqxfpr. xgq psegqb gq ghi opzfcgx ohem lpzt gsb xphwqub ghi rzk oqeztq h uzehu uqcqri, hri sx khb nznfuhpua oqusqwqi, kghxqwqp xgq zui lzum tscgx bha, xghx xgq gsuu hx ohc qri khb lfuu zl xfrrqub bxfllqi ksxg xpqhbfpq. hri sl xghx khb rzx qrzfcg lzp lhtq, xgqpq khb hubz gsb npzuzrcqi wsczfp xz thpwqu hx. xstq kzpq zr, ofx sx bqqtqi xz ghwq usxxuq qllqex zr tp. ohccsrb. hx rsrqxa gq khb tfeg xgq bhtq hb hx lslxa. hx rsrqxa-rsrq xgqa oqchr xz ehuu gst kquu-npqbqpwqi; ofx freghrcqi kzfui ghwq oqqr rqhpqp xgq thpm. xgqpq kqpq bztq xghx bgzzm xgqsp gqhib hri xgzfcgx xgsb khb xzz tfeg zl h czzi xgsrc; sx bqqtqi frlhsp xghx hrazrq bgzfui nzbbqbb (hnnhpqrxua) nqpnqxfhu azfxg hb kquu hb (pqnfxqiua) srqdghfbxsouq kqhuxg. sx ksuu ghwq xz oq nhsi lzp, xgqa bhsi. sx sbr'x rhxfphu, hri xpzfouq ksuu eztq zl sx! ofx bz lhp xpzfouq ghi rzx eztq; hri hb tp. ohccsrb khb cqrqpzfb ksxg gsb tzrqa, tzbx nqznuq kqpq ksuusrc xz lzpcswq gst gsb ziisxsqb hri gsb czzi lzpxfrq. gq pqthsrqi zr wsbsxsrc xqptb ksxg gsb pquhxswqb (qdeqnx, zl ezfpbq, xgq bhemwsuuq-ohccsrbqb), hri gq ghi thra iqwzxqi hitspqpb htzrc xgq gzoosxb zl nzzp hri frstnzpxhrx lhtsusqb. ofx gq ghi rz euzbq lpsqrib, frxsu bztq zl gsb azfrcqp ezfbsrb oqchr xz cpzk fn. xgq quiqbx zl xgqbq, hri osuoz'b lhwzfpsxq, khb azfrc lpziz ohccsrb. kgqr osuoz khb rsrqxa-rsrq gq hiznxqi lpziz hb gsb gqsp, hri opzfcgx gst xz uswq hx ohc qri; hri xgq gznqb zl xgq bhemwsuuq- ohccsrbqb kqpq lsrhuua ihbgqi. osuoz hri lpziz ghnnqrqi xz ghwq xgq bhtq ospxgiha, bqnxqtoqp 22ri. azf ghi oqxxqp eztq hri uswq gqpq, lpziz ta uhi, bhsi osuoz zrq iha; hri xgqr kq ehr equqophxq zfp ospxgiha-eztlzpxhou nhpxsqb a xzcqxgqp. hx xghx xstq lpziz khb bxsuu sr gsb xkqqrb, hb xgq gzoosxb ehuuqi xgq sppqbnzrbsouq xkqrxsqb oqxkqqr egsuigzzi hri eztsrc zl hcq hx xgspxa-xgpqq
+
+Steps of finding outputs,
+1. First sort the given frequency distribution.
+2. Then calculate the frequencies of letters for each CipherText.
+3. Sort them according to letters from most frequencies to least frequencies.
+4. Compare the given frequencies and the frequencies we have found.
+5. Replace each letter according to given frequencies; most frequent letter of CipherTexts with most frequent letter of given, 2nd most with 2nd most and so on.
+6. Then output the new CipherText.
+7. If it make sense, then it is the Decipher Text, otherwise changes the ordering and again compare.
+8. As it will take a lots of time because there are 26 factorial combinations possible, we output it just for the given steps. 
+9. We can easily find all the other combinaitons with adding some additional code(finding combinations with factorial and again following the given steps for each combination).
+
+***It is hard to say for which CipherText it will be easy to decipher the text. As CipherText1 is shorter compare to CipherText2, so of course it will take lesser time compare to other.
